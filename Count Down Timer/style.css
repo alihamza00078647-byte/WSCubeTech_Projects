@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-color:rgb(196, 11, 11); */
+    background-image: url(./Buildings.jpg);
+    background-size: cover;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.text p{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    color: white;
+    margin-top: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.all{
+    height: 70px;
+    width: 100px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS';
+}
+.data{
+    display: flex;
+    justify-content: space-evenly;
+}
+.data p{
+    font-size: 30px;
+    margin-left: 10px;
+}
